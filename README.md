@@ -52,5 +52,5 @@ remote and unsigned. Whilst I did initially try setting the execution policy usi
   - A script to recursively sign all scripts at or below the current folder 
   - I've added a script to recursively unsign all sigened scripts below the current folder
   
-  As indicated this page will mirrored and extended on my blog [davidjones.sportronics.com.au]{davidjones.sportronics.com.au). Comments and feedback are invited there.
+  As indicated this page will mirrored and extended on my blog [https://davidjones.sportronics.com.au](https://davidjones.sportronics.com.au). Comments and feedback are invited there.
 
