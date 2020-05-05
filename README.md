@@ -87,3 +87,20 @@ remote and unsigned. Whilst I did initially try setting the execution policy usi
 # Usage
 - You may run into a "Catch-22" scenario. You can't run the signing scripts unless they are signed. To get around this complete the first 3 scripts by copying the command from each directly to the command line.
 - Once they are setup you can run the later scripts as PS scripts.
+
+# If you must ...
+Some PS 
+```
+PS C:\scripts> Get-ExecutionPolicy
+Unrestricted
+
+PS \scripts> Set-ExecutionPolicy unrestricted
+
+Execution Policy Change
+The execution policy helps protect you from scripts that you do not trust. Changing the execution policy might expose
+you to the security risks described in the about_Execution_Policies help topic at
+https:/go.microsoft.com/fwlink/?LinkID=135170. Do you want to change the execution policy?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"): Y
+```
+
+You may need to do 1. and 2. in the VS Developer Command Prompt
