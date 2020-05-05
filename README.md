@@ -65,10 +65,14 @@ remote and unsigned. Whilst I did initially try setting the execution policy usi
 
 # What's in this Repository
 - Following Scott Haselman's post:
-  - A script to create a local certificate:  
-  _Coming_
-  - A scriot to sign one PowerShell script using that certificate:  
-  _Coming_
+  - A script to create a local authority  
+  [1-create--local-certificate-authority](https://github.com/djaus2/sign-me-up-scotty/blob/master/scripts/1-create--local-certificate-authority.ps1)
+  - A script to create a personal certificate:  
+  [2-create-personal-certificate.ps1](https://github.com/djaus2/sign-me-up-scotty/blob/master/scripts/2-create-personal-certificate.ps1)
+  - A script to verify the personal certifcate  
+  [3-verify.ps1](https://github.com/djaus2/sign-me-up-scotty/blob/master/scripts/3-Verify.ps1)
+  - A script to sign one PowerShell script using that certificate:  
+  [sign-one.ps1](https://github.com/djaus2/sign-me-up-scotty/blob/master/scripts/sign-one.ps1)
 - Following the Server Analyst post:
   - A script to recursively sign all scripts at or below the current folder:  
   [signall.ps1](https://github.com/djaus2/sign-me-up-scotty/blob/master/scripts/signall.ps1)  
