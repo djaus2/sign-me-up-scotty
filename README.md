@@ -1,6 +1,8 @@
 # PowerShell Signing Scripts
 Some PowerShell scripts for signing PowerShell scripts
 
+> Note that this page will be mirrored on my blog [https://davidjones.sportronics.com.au](https://davidjones.sportronics.com.au) where you can leave comments
+
 # Background
 I have developed and extended (many times) the GitHub repository [djaus2/az-iothub-ps](https://github.com/az-iothub-ps), 
 which is a tool for developing in a menu driven manner, entities for Azure IoT Hub, Devices, Device Provisioing Services and IoT Central. 
@@ -28,8 +30,13 @@ remote and unsigned. Whilst I did initially try setting the execution policy usi
  Q4. Is there a better way for PowerShell scripts in repositories? (Cloning, Updates and Commits)  
  
  # Relevant Links
- - [Signing PowerShell Scripts - Scott Halselman]{https://www.hanselman.com/blog/SigningPowerShellScripts.aspx} 
+ - [Signing PowerShell Scripts - Scott Halselman](https://www.hanselman.com/blog/SigningPowerShellScripts.aspx)
  - [Code Signing Multiple PowerShell Scripts - The Server Analyst](https://serveranalyst.wordpress.com/2011/11/12/code-signing-multiple-powershell-scripts/)
 - [Set-ExecutionPolicy](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7)
 - [Publish-Script](https://docs.microsoft.com/en-us/powershell/module/PowershellGet/Publish-Script?view=powershell-5.1)
 - [How to Set PowerShell Script Execution Policy in Windows 10](https://www.tenforums.com/tutorials/54585-change-powershell-script-execution-policy-windows-10-a.html)
+
+<hr><hr<
+### Disclaimer
+Given the nature of PoweRshell, and what a script is allowed to do if a script is enabled on your system, it is up to you to check out these links and scripts in repository and to ascertain there suitability and intrusiveness on your system. Also, note that some scripts here are recursive. 
+<hr><hr>
