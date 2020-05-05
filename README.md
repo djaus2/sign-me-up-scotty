@@ -73,7 +73,7 @@ remote and unsigned. Whilst I did initially try setting the execution policy usi
   [3-verify.ps1](https://github.com/djaus2/sign-me-up-scotty/blob/master/scripts/3-Verify.ps1)
   - A script to sign one PowerShell script using that certificate:  
   [sign-one.ps1](https://github.com/djaus2/sign-me-up-scotty/blob/master/scripts/sign-one.ps1)  
-  _Place the PS File (path) in teh command line,_
+  _Place the PS File (path) in the command line,_
 - Following the Server Analyst post:
   - A script to recursively sign all scripts at or below the current folder:  
   [signall.ps1](https://github.com/djaus2/sign-me-up-scotty/blob/master/scripts/signall.ps1)  
