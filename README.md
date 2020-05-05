@@ -7,6 +7,23 @@ _Note that the GitHub link for this repository, sign-me-up-scotty, came from two
 
 > Note that this page will be mirrored on my blog [https://davidjones.sportronics.com.au](https://davidjones.sportronics.com.au) where you can leave comments
 
+Ever had this:
+
+ ```
+ .\1-create--local-certificate-authority : File  
+sign-me-up-scotty\scripts\1-create--local-certificate-authority.ps1  
+cannot be loaded. The file  
+sign-me-up-scotty\scripts\1-create--local-certificate-authority.ps1 is  
+not digitally signed. You cannot run this script on the current system. For more information about running scripts and  
+setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.  
+At line:1 char:1  
++ .\1-create--local-certificate-authority  
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException  
+    + FullyQualifiedErrorId : UnauthorizedAccess  
+ ```
+
+
 # Background
 I have developed and extended (many times) the GitHub repository [djaus2/az-iothub-ps](https://github.com/az-iothub-ps), 
 which is a tool for developing in a menu driven manner, entities for Azure IoT Hub, Devices, Device Provisioing Services and IoT Central. 
@@ -64,3 +81,6 @@ remote and unsigned. Whilst I did initially try setting the execution policy usi
   
   As indicated this page will mirrored and extended on my blog [https://davidjones.sportronics.com.au](https://davidjones.sportronics.com.au). Comments and feedback are invited there.
 
+# Usage
+- You may run into a "Catch-22" scenario. You can't run the signing scripts unless they are signed. To get around this complete the first 3 scripts by copying the command from each directly to the command line.
+- Once they are setup you can run the later scripts as PS scripts.
