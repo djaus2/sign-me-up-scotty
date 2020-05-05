@@ -28,5 +28,8 @@ remote and unsigned. Whilst I did initially try setting the execution policy usi
  Q4. Is there a better way for PowerShell scripts in repositories? (Cloning, Updates and Commits)  
  
  # Relevant Links
- 
- 
+ - [Signing PowerShell Scripts - Scott Halselman]{https://www.hanselman.com/blog/SigningPowerShellScripts.aspx} 
+ - [Code Signing Multiple PowerShell Scripts - The Server Analyst](https://serveranalyst.wordpress.com/2011/11/12/code-signing-multiple-powershell-scripts/)
+- [Set-ExecutionPolicy](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7)
+- [Publish-Script](https://docs.microsoft.com/en-us/powershell/module/PowershellGet/Publish-Script?view=powershell-5.1)
+- [How to Set PowerShell Script Execution Policy in Windows 10](https://www.tenforums.com/tutorials/54585-change-powershell-script-execution-policy-windows-10-a.html)
