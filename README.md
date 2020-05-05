@@ -89,7 +89,7 @@ remote and unsigned. Whilst I did initially try setting the execution policy usi
 - Once they are setup you can run the later scripts as PS scripts.
 
 # If you must ...
-Some PS 
+## Some PS Excecution Policy
 ```
 PS C:\scripts> Get-ExecutionPolicy
 Unrestricted
