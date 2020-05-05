@@ -29,14 +29,28 @@ remote and unsigned. Whilst I did initially try setting the execution policy usi
  when changes are made and they are comitted back to the repository?  
  Q4. Is there a better way for PowerShell scripts in repositories? (Cloning, Updates and Commits)  
  
- # Relevant Links
+ # Some Links
  - [Signing PowerShell Scripts - Scott Halselman](https://www.hanselman.com/blog/SigningPowerShellScripts.aspx)
  - [Code Signing Multiple PowerShell Scripts - The Server Analyst](https://serveranalyst.wordpress.com/2011/11/12/code-signing-multiple-powershell-scripts/)
 - [Set-ExecutionPolicy](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7)
 - [Publish-Script](https://docs.microsoft.com/en-us/powershell/module/PowershellGet/Publish-Script?view=powershell-5.1)
 - [How to Set PowerShell Script Execution Policy in Windows 10](https://www.tenforums.com/tutorials/54585-change-powershell-script-execution-policy-windows-10-a.html)
 
-<hr><hr<
-### Disclaimer
-Given the nature of PoweRshell, and what a script is allowed to do if a script is enabled on your system, it is up to you to check out these links and scripts in repository and to ascertain there suitability and intrusiveness on your system. Also, note that some scripts here are recursive. 
-<hr><hr>
+<hr>
+
+> <b>Disclaimer</b>  
+<i>Given the nature of PowerShell, and what a script is allowed to do if a script is enabled on your system, it is up to you to check out these links and the scripts in repository and to ascertain their suitability for, and intrusiveness into, your system.  
+ Also, note that some scripts here are recursive.</i>
+
+<hr>
+
+# What's in this Repository
+- Following Scott Haselman's post:
+  - A script to create a local certificate
+  - A scriot to sign one PowerShell script using that certificate
+- Following the Server Analyst post:
+  - A script to recursively sign all scripts at or below the current folder 
+  - I've added a script to recursively unsign all sigened scripts below the current folder
+  
+  As indicated this page will mirrored and extended on my blog [davidjones.sportronics.com.au]{davidjones.sportronics.com.au). Comments and feedback are invited there.
+
