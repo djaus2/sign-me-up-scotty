@@ -2,6 +2,8 @@ $thisFile="signall.ps1"
 # BEGIN
 # LOGGING
 # Ref: https://serveranalyst.wordpress.com/2011/11/12/code-signing-multiple-powershell-scripts/
+# RefL https://github.com/djaus2/sign-me-up-scotty
+# Ref: https://davidjones.sportronics.com.au
 $logpath = "C:\logs"
  
 $Outputfile = "{0}\{1:yyyy.MM.dd-hh.mm.ss}-sign-scripts.txt" -f $logpath, $(Get-Date)

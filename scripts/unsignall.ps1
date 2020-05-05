@@ -2,6 +2,8 @@ $thisFile="unsignall.ps1"
 # BEGIN
 # LOGGING
 # Ref: https://serveranalyst.wordpress.com/2011/11/12/code-signing-multiple-powershell-scripts/
+# RefL https://github.com/djaus2/sign-me-up-scotty
+# Ref: https://davidjones.sportronics.com.au
 # Modified here for removing signature from .ps1
 $logpath = "C:\logs"
  
