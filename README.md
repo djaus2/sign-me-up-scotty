@@ -94,7 +94,7 @@ remote and unsigned. Whilst I did initially try setting the execution policy usi
 PS C:\scripts> Get-ExecutionPolicy
 Unrestricted
 
-PS \scripts> Set-ExecutionPolicy unrestricted
+PS C:\scripts> Set-ExecutionPolicy unrestricted
 
 Execution Policy Change
 The execution policy helps protect you from scripts that you do not trust. Changing the execution policy might expose
@@ -102,5 +102,5 @@ you to the security risks described in the about_Execution_Policies help topic a
 https:/go.microsoft.com/fwlink/?LinkID=135170. Do you want to change the execution policy?
 [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"): Y
 ```
-
-You may need to do 1. and 2. in the VS Developer Command Prompt
+- Need to run these 2 commands in Admin mode
+- You may need to run scripts 1. and 2. in the VS Developer Command Prompt
