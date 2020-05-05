@@ -3,7 +3,7 @@ Some PowerShell scripts for signing PowerShell scripts
 
 _Note that the GitHub link for this repository, sign-me-up-scotty, came from two sources. The first is the Scott Haselman (and Geoff Bard) post [Signing PowerShell Scripts](https://www.hanselman.com/blog/SigningPowerShellScripts.aspx), with respect to code signing PowerShell scripts. A great source of information on this, as always from Scott, Thanks Scott. Also its is a play on the quote beam-me-up-scotty from the SciFi TV series Star Trek._  
 
-> Note that this page will be mirrored on my blog [https://davidjones.sportronics.com.au](https://davidjones.sportronics.com.au) where you can leave comments
+> Note that this page has been mirrored on my blog [https://davidjones.sportronics.com.au](https://davidjones.sportronics.com.au) where you can leave comments
 
 Ever had this:
 
