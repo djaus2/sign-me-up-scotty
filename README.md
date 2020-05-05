@@ -50,11 +50,17 @@ remote and unsigned. Whilst I did initially try setting the execution policy usi
 
 # What's in this Repository
 - Following Scott Haselman's post:
-  - A script to create a local certificate
-  - A scriot to sign one PowerShell script using that certificate
+  - A script to create a local certificate:  
+  _Coming_
+  - A scriot to sign one PowerShell script using that certificate:  
+  _Coming_
 - Following the Server Analyst post:
-  - A script to recursively sign all scripts at or below the current folder 
-  - I've added a script to recursively unsign all sigened scripts below the current folder
+  - A script to recursively sign all scripts at or below the current folder:  
+  [signall.ps1](https://github.com/djaus2/sign-me-up-scotty/blob/master/scripts/signall.ps1)  
+  Note that it was modified so as it recurses from the current folder.
+  - I've added a script to recursively unsign all sigened scripts below the current folder:  
+  [unsignall.ps1](https://github.com/djaus2/sign-me-up-scotty/blob/master/scripts/unsignall.ps1)  
+  Note that this also recurses from the current folder.
   
   As indicated this page will mirrored and extended on my blog [https://davidjones.sportronics.com.au](https://davidjones.sportronics.com.au). Comments and feedback are invited there.
 
