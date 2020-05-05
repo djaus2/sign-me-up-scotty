@@ -1,7 +1,7 @@
 # PowerShell Code Signing Scripts
 Some PowerShell scripts for signing PowerShell scripts  
 
-Note that the GtTHub link for this repository sign-me-up-scotty came from two inputs. The first is the Scott Haselman post [Signing PowerShell Scripts - Scott Halselman](https://www.hanselman.com/blog/SigningPowerShellScripts.aspx), with respect to code signing PowerShell scripts. A great source of information on this, as always from Scott, Thansk Scott. Also its is a paly on beam-me-up-scotty from teh SciFi TV series Star Trek.  
+Note that the GttHub link for this repository sign-me-up-scotty came from two inputs. The first is the Scott Haselman post [Signing PowerShell Scripts - Scott Halselman](https://www.hanselman.com/blog/SigningPowerShellScripts.aspx), with respect to code signing PowerShell scripts. A great source of information on this, as always from Scott, Thansk Scott. Also its is a paly on beam-me-up-scotty from teh SciFi TV series Star Trek.  
 
 > Note that this page will be mirrored on my blog [https://davidjones.sportronics.com.au](https://davidjones.sportronics.com.au) where you can leave comments
 
