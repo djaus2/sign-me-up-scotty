@@ -53,7 +53,8 @@ remote and unsigned. Whilst I did initially try setting the execution policy usi
   - A script to create a local certificate
   - A scriot to sign one PowerShell script using that certificate
 - Following the Server Analyst post:
-  - A script to recursively sign all scripts at or below the current folder 
+  - A script to recursively sign all scripts at or below the current folder  
+  [signall.ps1](https://github.com/djaus2/sign-me-up-scotty/blob/master/scripts/signall.ps1)
   - I've added a script to recursively unsign all sigened scripts below the current folder
   
   As indicated this page will mirrored and extended on my blog [https://davidjones.sportronics.com.au](https://davidjones.sportronics.com.au). Comments and feedback are invited there.
