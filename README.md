@@ -49,7 +49,7 @@ remote and unsigned. Whilst I did initially try setting the execution policy usi
  Q4. Is there a better way for PowerShell scripts in repositories? (Cloning, Updates and Commits)  
  
  # Some Links
- - [Signing PowerShell Scripts - Scott Halselman](https://www.hanselman.com/blog/SigningPowerShellScripts.aspx)
+ - [Signing PowerShell Scripts - Scott Hanselman](https://www.hanselman.com/blog/SigningPowerShellScripts.aspx)
  - [Code Signing Multiple PowerShell Scripts - The Server Analyst](https://serveranalyst.wordpress.com/2011/11/12/code-signing-multiple-powershell-scripts/)
 - [Set-ExecutionPolicy](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7)
 - [Publish-Script](https://docs.microsoft.com/en-us/powershell/module/PowershellGet/Publish-Script?view=powershell-5.1)
@@ -64,7 +64,7 @@ remote and unsigned. Whilst I did initially try setting the execution policy usi
 <hr>
 
 # What's in this Repository
-- Following Scott Haselman's post:
+- Following [Scott Hanselman's post](https://www.hanselman.com/blog/SigningPowerShellScripts.aspx) post:
   - A script to create a local authority  
   [1-create--local-certificate-authority](https://github.com/djaus2/sign-me-up-scotty/blob/master/scripts/1-create--local-certificate-authority.ps1)
   - A script to create a personal certificate:  
@@ -74,7 +74,7 @@ remote and unsigned. Whilst I did initially try setting the execution policy usi
   - A script to sign one PowerShell script using that certificate:  
   [sign-one.ps1](https://github.com/djaus2/sign-me-up-scotty/blob/master/scripts/sign-one.ps1)  
   _Place the PS File (path) in the command line,_
-- Following the Server Analyst post:
+- Following the [The Server Analyst post](https://serveranalyst.wordpress.com/2011/11/12/code-signing-multiple-powershell-scripts):
   - A script to recursively sign all scripts at or below the current folder:  
   [signall.ps1](https://github.com/djaus2/sign-me-up-scotty/blob/master/scripts/signall.ps1)  
   Note that it was modified so as it recurses from the current folder.
