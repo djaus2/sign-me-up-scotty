@@ -3,7 +3,7 @@ Some PowerShell scripts for signing PowerShell scripts
 
 _Note that the GitHub link for this repository, sign-me-up-scotty, came from two sources. The first is the Scott Haselman (and Geoff Bard) post [Signing PowerShell Scripts](https://www.hanselman.com/blog/SigningPowerShellScripts.aspx), with respect to code signing PowerShell scripts. A great source of information on this, as always from Scott, Thanks Scott. Also its is a play on the quote beam-me-up-scotty from the SciFi TV series Star Trek._  
 
-> Note that this page has been mirrored on my blog [https://davidjones.sportronics.com.au/coding/signing-a-ps_powershell.html](https://davidjones.sportronics.com.au/coding/signing-a-ps_powershell.html) where you can leave comments
+> Note that this page has been mirrored on my blog [PowerShell Code Signing of scripts](https://davidjones.sportronics.com.au/coding/signing-a-ps_powershell.html) where you can leave comments
 
 Ever had this:
 
@@ -82,7 +82,7 @@ remote and unsigned. Whilst I did initially try setting the execution policy usi
   [unsignall.ps1](https://github.com/djaus2/sign-me-up-scotty/blob/master/scripts/unsignall.ps1)  
   Note that this also recurses from the current folder.
   
-  As indicated this page will mirrored and extended on my blog [https://davidjones.sportronics.com.au/coding/signing-a-ps_powershell.html](https://davidjones.sportronics.com.au/coding/signing-a-ps_powershell.html). Comments and feedback are invited there.
+  As indicated this page will mirrored and extended on my blog [PowerShell Code Signing of scriptsl](https://davidjones.sportronics.com.au/coding/signing-a-ps_powershell.html). I will add any further content on Code Signing there. Comments and feedback are invited there.
 
 # Usage
 - You may run into a "Catch-22" scenario. You can't run the signing scripts unless they are signed. To get around this complete the first 3 scripts by copying the command from each directly to the command line.
