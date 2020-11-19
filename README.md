@@ -1,6 +1,8 @@
 # PowerShell Code Signing Scripts
 Some PowerShell scripts for signing PowerShell scripts  
 
+**See Update at bottom**
+
 _Note that the GitHub link for this repository, sign-me-up-scotty, came from two sources. The first is the Scott Haselman (and Geoff Bard) post [Signing PowerShell Scripts](https://www.hanselman.com/blog/SigningPowerShellScripts.aspx), with respect to code signing PowerShell scripts. A great source of information on this, as always from Scott, Thanks Scott. Also its is a play on the quote beam-me-up-scotty from the SciFi TV series Star Trek._  
 
 > Note that this page has been mirrored on my blog [PowerShell Code Signing of scripts](https://davidjones.sportronics.com.au/coding/signing-a-ps_powershell.html) where you can leave comments
@@ -104,3 +106,13 @@ https:/go.microsoft.com/fwlink/?LinkID=135170. Do you want to change the executi
 ```
 - Need to run these 2 commands in Admin mode
 - You may need to run scripts 1. and 2. in the VS Developer Command Prompt
+
+<hr>
+**makecert** is now deprecated in favour of  **New-SelfSignedCertificate**
+I followed the instruction at https://sid-500.com/2017/10/26/how-to-digitally-sign-powershell-scripts/#:~:text=How%20to%20digitally%20sign%20PowerShell%20Scripts%201%20Introduction.,Testing%20your%20script.%20...%206%20Error%20handling.%20
+to create a self-signed Certificate for coding and import it into Trusted Root Certificate Authorities (didn't need Trusted Publishers).
+
+I then was able to run signall.ps1  (My requirement is taht only Remote need signing) so useda local copy.
+
+Nb: Also was a smal bug fix in signall.ps1 (Wrong ")
+<hr>
