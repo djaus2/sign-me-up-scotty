@@ -36,7 +36,7 @@ foreach ($script in $scripts)
 }
 write-host "Got List"
 foreach($File in $list){
-    $TempFile = “$($File).UTF8"
+    $TempFile = "$($File).UTF8"
     get-content $File | out-file $TempFile -Encoding UTF8
     remove-item $File
     rename-item $TempFile $File
