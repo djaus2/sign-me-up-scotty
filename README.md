@@ -67,6 +67,7 @@ remote and unsigned. Whilst I did initially try setting the execution policy usi
 
 # What's in this Repository
 - Following [Scott Hanselman's](https://www.hanselman.com/blog/SigningPowerShellScripts.aspx) post:
+**Nb: For 1 and 2 see Update at bottom**
   - A script to create a local authority  
   [1-create--local-certificate-authority](https://github.com/djaus2/sign-me-up-scotty/blob/master/scripts/1-create--local-certificate-authority.ps1)
   - A script to create a personal certificate:  
